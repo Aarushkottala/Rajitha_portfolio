@@ -362,7 +362,7 @@ function Contact() {
   return (
     <section
       id="Contact"
-      className="relative bg-slate-900 text-white px-6 py-24 overflow-hidden"
+      className="relative bg-blue-100 text-slate-600 px-6 py-24 overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
@@ -380,7 +380,7 @@ function Contact() {
             Contact <span className="text-cyan-400">Me</span>
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto mt-5 leading-7">
+          <p className="text-slate-600 max-w-2xl mx-auto mt-5 leading-7">
             Have a project, opportunity or question?
             Feel free to send me a message.
           </p>
@@ -397,7 +397,7 @@ function Contact() {
               Let's work together
             </h3>
 
-            <p className="text-gray-400 leading-8 mb-10">
+            <p className="text-slate-600 leading-8 mb-10">
               I'm interested in front-end development opportunities
               and building modern, responsive web applications.
               Feel free to reach out.
@@ -418,13 +418,13 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-500 text-sm">
+                <p className="text-gray-700 text-sm">
                   Email
                 </p>
 
                 <a
                   href="mailto:your-email@gmail.com"
-                  className="text-gray-300 hover:text-cyan-400 transition"
+                  className="text-slate-600 hover:text-cyan-400 transition"
                 >
                   rajithareddykottala@gmail.com
                 </a>
@@ -447,11 +447,11 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-500 text-sm">
+                <p className="text-gray-700 text-sm">
                   Location
                 </p>
 
-                <p className="text-gray-300">
+                <p className="text-slate-600">
                   Canada
                 </p>
               </div>
@@ -473,7 +473,7 @@ function Contact() {
               </div>
 
               <div>
-                <p className="text-gray-500 text-sm">
+                <p className="text-gray-700 text-sm">
                   GitHub
                 </p>
 
@@ -481,7 +481,7 @@ function Contact() {
                   href="https://github.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-cyan-400 transition"
+                  className="text-slate-600 hover:text-cyan-400 transition"
                 >
                   GitHub Profile
                 </a>
@@ -496,7 +496,7 @@ function Contact() {
 
             <form
               onSubmit={handleSubmit}
-              className="bg-slate-950
+              className="bg-slate-600
                          border border-white/10
                          rounded-2xl
                          p-8

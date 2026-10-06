@@ -64,7 +64,7 @@ function Home() {
   return (
     <section
       id="Home"
-      className="relative min-h-screen overflow-hidden bg-slate-950 text-white px-6 pt-32 flex items-center"
+      className="relative min-h-screen overflow-hidden bg-blue-100 text-cyan-600 px-6 pt-32 flex items-center"
     >
       {/* Background Glow 1 */}
       <div
@@ -81,7 +81,7 @@ function Home() {
       {/* Main Content */}
       <div className="relative max-w-6xl mx-auto w-full text-center">
 
-        <p className="text-cyan-400 text-lg font-semibold mb-4">
+        <p className="text-cyan-600 text-lg font-semibold mb-4">
           Hello, I'm
         </p>
 
@@ -89,14 +89,14 @@ function Home() {
           Rajita Kottala
         </h1>
 
-        <h2 className="text-2xl md:text-4xl font-semibold text-gray-300 mb-6">
+        <h2 className="text-2xl md:text-4xl font-semibold text-gray-500 mb-6">
           Front-End{" "}
           <span className="text-cyan-400">
             React Developer
           </span>
         </h2>
 
-        <p className="max-w-2xl mx-auto text-gray-400 text-lg leading-8 mb-8">
+        <p className="max-w-2xl mx-auto text-gray-500 text-lg leading-8 mb-8">
           I create modern, responsive and user-friendly web
           applications using React, JavaScript, HTML, CSS and
           Tailwind CSS.

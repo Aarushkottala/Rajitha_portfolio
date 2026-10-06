@@ -262,6 +262,142 @@
 //export default Skills;
 
 //////////////////////////////////
+// import {
+//   FaHtml5,
+//   FaCss3Alt,
+//   FaJs,
+//   FaReact,
+//   FaBootstrap,
+//   FaGitAlt,
+//   FaGithub,
+// } from "react-icons/fa";
+
+// import { SiTailwindcss } from "react-icons/si";
+
+// function Skills() {
+//   const skills = [
+//     {
+//       name: "HTML5",
+//       icon: <FaHtml5 />,
+//       description: "Semantic HTML and accessible web structure",
+//       category: "Frontend",
+//     },
+//     {
+//       name: "CSS3",
+//       icon: <FaCss3Alt />,
+//       description: "Responsive layouts, Flexbox, Grid and animations",
+//       category: "Frontend",
+//     },
+//     {
+//       name: "JavaScript",
+//       icon: <FaJs />,
+//       description: "ES6+, DOM, array methods and asynchronous JavaScript",
+//       category: "Language",
+//     },
+//     {
+//       name: "React",
+//       icon: <FaReact />,
+//       description: "Components, props, state, hooks and reusable UI",
+//       category: "Frontend",
+//     },
+//     {
+//       name: "Tailwind CSS",
+//       icon: <SiTailwindcss />,
+//       description: "Responsive and modern utility-first UI development",
+//       category: "CSS Framework",
+//     },
+//     {
+//       name: "Bootstrap",
+//       icon: <FaBootstrap />,
+//       description: "Responsive layouts and reusable UI components",
+//       category: "CSS Framework",
+//     },
+//     {
+//       name: "Git",
+//       icon: <FaGitAlt />,
+//       description: "Version control and project collaboration",
+//       category: "Tools",
+//     },
+//     {
+//       name: "GitHub",
+//       icon: <FaGithub />,
+//       description: "Repositories and source code management",
+//       category: "Tools",
+//     },
+//   ];
+
+//   return (
+//     <section
+//       id="Skills"
+//       className="relative bg-blue-100 text-gray-500 px-6 py-24 overflow-hidden"
+//     >
+//       {/* Background glow */}
+//       <div className="absolute top-20 left-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
+
+//       <div className="relative max-w-7xl mx-auto">
+
+//         {/* Heading */}
+//         <div className="text-center mb-16">
+//           <p className="text-cyan-400 font-semibold mb-3">
+//             MY TECHNICAL SKILLS
+//           </p>
+
+//           <h2 className="text-4xl md:text-5xl font-bold">
+//             My <span className="text-cyan-400">Skills</span>
+//           </h2>
+
+//           <p className="text-gray-500 max-w-2xl mx-auto mt-5 leading-7">
+//             Technologies and tools I use to create modern,
+//             responsive and user-friendly web applications.
+//           </p>
+//         </div>
+
+//         {/* Skills Grid */}
+//         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+//           {skills.map((skill) => (
+//             <div
+//               key={skill.name}
+//               className="group relative bg-red-600 border border-white/10 rounded-2xl p-6 hover:border-cyan-400/50 hover:-translate-y-2 transition-all duration-500"
+//             >
+//               {/* Glow */}
+//               <div className="absolute inset-0 bg-cyan-400/5 opacity-0 group-hover:opacity-100 rounded-2xl transition duration-500"></div>
+
+//               <div className="relative">
+
+//                 {/* Icon */}
+//                 <div className="text-3xl text-cyan-400 mb-5">
+//                   {skill.icon}
+//                 </div>
+
+//                 {/* Category */}
+//                 <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">
+//                   {skill.category}
+//                 </p>
+
+//                 {/* Skill Name */}
+//                 <h3 className="text-xl font-bold mb-3 group-hover:text-cyan-400 transition">
+//                   {skill.name}
+//                 </h3>
+
+//                 {/* Description */}
+//                 <p className="text-white text-sm leading-6">
+//                   {skill.description}
+//                 </p>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
+
+// export default Skills;
+
+////////////
+
+
+
 import {
   FaHtml5,
   FaCss3Alt,
@@ -278,49 +414,49 @@ function Skills() {
   const skills = [
     {
       name: "HTML5",
-      icon: <FaHtml5 />,
+      icon: <FaHtml5 className="text-orange-600" />,
       description: "Semantic HTML and accessible web structure",
       category: "Frontend",
     },
     {
       name: "CSS3",
-      icon: <FaCss3Alt />,
+      icon: <FaCss3Alt className="text-blue-600" />,
       description: "Responsive layouts, Flexbox, Grid and animations",
       category: "Frontend",
     },
     {
       name: "JavaScript",
-      icon: <FaJs />,
+      icon: <FaJs className="text-yellow-400" />,
       description: "ES6+, DOM, array methods and asynchronous JavaScript",
       category: "Language",
     },
     {
       name: "React",
-      icon: <FaReact />,
+      icon: <FaReact className="text-cyan-500" />,
       description: "Components, props, state, hooks and reusable UI",
       category: "Frontend",
     },
     {
       name: "Tailwind CSS",
-      icon: <SiTailwindcss />,
+      icon: <SiTailwindcss className="text-sky-500" />,
       description: "Responsive and modern utility-first UI development",
       category: "CSS Framework",
     },
     {
       name: "Bootstrap",
-      icon: <FaBootstrap />,
+      icon: <FaBootstrap className="text-purple-600" />,
       description: "Responsive layouts and reusable UI components",
       category: "CSS Framework",
     },
     {
       name: "Git",
-      icon: <FaGitAlt />,
+      icon: <FaGitAlt className="text-orange-600" />,
       description: "Version control and project collaboration",
       category: "Tools",
     },
     {
       name: "GitHub",
-      icon: <FaGithub />,
+      icon: <FaGithub className="text-slate-900" />,
       description: "Repositories and source code management",
       category: "Tools",
     },
@@ -329,7 +465,7 @@ function Skills() {
   return (
     <section
       id="Skills"
-      className="relative bg-slate-950 text-white px-6 py-24 overflow-hidden"
+      className="relative bg-blue-100 text-slate-700 px-6 py-24 overflow-hidden"
     >
       {/* Background glow */}
       <div className="absolute top-20 left-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
@@ -338,54 +474,64 @@ function Skills() {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-cyan-400 font-semibold mb-3">
+
+          <p className="text-cyan-600 font-semibold mb-3">
             MY TECHNICAL SKILLS
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold">
-            My <span className="text-cyan-400">Skills</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
+            My <span className="text-cyan-600">Skills</span>
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto mt-5 leading-7">
+          <p className="text-slate-600 max-w-2xl mx-auto mt-5 leading-7">
             Technologies and tools I use to create modern,
             responsive and user-friendly web applications.
           </p>
+
         </div>
 
         {/* Skills Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
           {skills.map((skill) => (
+
             <div
               key={skill.name}
-              className="group relative bg-slate-900 border border-white/10 rounded-2xl p-6 hover:border-cyan-400/50 hover:-translate-y-2 transition-all duration-500"
+              className="group relative bg-white border border-slate-200 rounded-2xl p-6 shadow-md shadow-slate-200/60 hover:border-cyan-400 hover:-translate-y-2 hover:shadow-lg hover:shadow-cyan-100 transition-all duration-500"
             >
+
               {/* Glow */}
               <div className="absolute inset-0 bg-cyan-400/5 opacity-0 group-hover:opacity-100 rounded-2xl transition duration-500"></div>
 
               <div className="relative">
 
                 {/* Icon */}
-                <div className="text-3xl text-cyan-400 mb-5">
-                  {skill.icon}
+                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-cyan-50 mb-5">
+                  <div className="text-3xl">
+                    {skill.icon}
+                  </div>
                 </div>
 
                 {/* Category */}
-                <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">
+                <p className="text-xs uppercase tracking-wider text-cyan-600 font-medium mb-2">
                   {skill.category}
                 </p>
 
                 {/* Skill Name */}
-                <h3 className="text-xl font-bold mb-3 group-hover:text-cyan-400 transition">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-cyan-600 transition">
                   {skill.name}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-400 text-sm leading-6">
+                <p className="text-slate-600 text-sm leading-6">
                   {skill.description}
                 </p>
+
               </div>
             </div>
+
           ))}
+
         </div>
       </div>
     </section>

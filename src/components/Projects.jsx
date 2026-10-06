@@ -221,7 +221,7 @@ function Projects() {
   return (
     <section
       id="Projects"
-      className="relative bg-slate-950 text-white px-6 py-24 overflow-hidden"
+      className="relative bg-blue-100 text-slate-800 px-6 py-24 overflow-hidden"
     >
       {/* Background Glow */}
       <div className="absolute top-20 right-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
@@ -239,7 +239,7 @@ function Projects() {
             Featured <span className="text-cyan-400">Projects</span>
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto mt-5 leading-7">
+          <p className="text-gray-500 max-w-2xl mx-auto mt-5 leading-7">
             A selection of projects I have built while developing
             my front-end development skills.
           </p>
@@ -247,62 +247,21 @@ function Projects() {
         </div>
 
         {/* Project Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 md:grid-cols-3 gap-8">
 
           {projects.map((project) => (
             <div
               key={project.title}
               className="group
-                         bg-slate-900
-                         border border-white/10
+                         bg-purple-500
+                         border border-cyan-400/50
                          rounded-2xl
                          overflow-hidden
-                         hover:border-cyan-400/50
+                         hover:border-cyan-300/50
                          hover:-translate-y-2
                          transition-all duration-500"
             >
 
-              {/* Project Image */}
-              <div className="relative h-56 overflow-hidden">
-
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full
-                             object-cover
-                             group-hover:scale-110
-                             transition-transform duration-700"
-                />
-
-                {/* Image Overlay */}
-                <div
-                  className="absolute inset-0
-                             bg-slate-950/80
-                             opacity-0
-                             group-hover:opacity-100
-                             transition-all duration-500
-                             flex items-center justify-center"
-                >
-
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-6 py-3
-                               bg-cyan-400
-                               text-slate-950
-                               rounded-full
-                               font-semibold
-                               hover:bg-cyan-300
-                               hover:scale-105
-                               transition"
-                  >
-                    View Live Demo
-                  </a>
-
-                </div>
-
-              </div>
 
               {/* Project Content */}
               <div className="p-6">
@@ -315,7 +274,7 @@ function Projects() {
                   {project.title}
                 </h3>
 
-                <p className="text-gray-400 leading-7 mb-5">
+                <p className="text-slate-700 leading-7 mb-5">
                   {project.description}
                 </p>
 
@@ -328,7 +287,7 @@ function Projects() {
                       className="px-3 py-1
                                  text-xs
                                  rounded-full
-                                 bg-cyan-400/10
+                                 bg-cyan-700/10
                                  text-cyan-400
                                  border border-cyan-400/20"
                     >
@@ -338,44 +297,6 @@ function Projects() {
 
                 </div>
 
-                {/* Buttons */}
-                <div className="flex gap-3">
-
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1
-                               text-center
-                               px-4 py-2
-                               rounded-lg
-                               border border-gray-600
-                               text-gray-300
-                               hover:border-cyan-400
-                               hover:text-cyan-400
-                               transition"
-                  >
-                    GitHub
-                  </a>
-
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1
-                               text-center
-                               px-4 py-2
-                               rounded-lg
-                               bg-cyan-400
-                               text-slate-950
-                               font-semibold
-                               hover:bg-cyan-300
-                               transition"
-                  >
-                    Live Demo
-                  </a>
-
-                </div>
 
               </div>
 
