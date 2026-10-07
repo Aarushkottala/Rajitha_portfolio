@@ -158,10 +158,10 @@ function Navbar() {
           className="flex flex-col"
         >
           <span className="text-2xl font-bold text-white">
-            Rajitha<span className="text-cyan-400">.</span>
+            Rajitha<span className="text-cyan-400">Kottala</span>
           </span>
 
-          <span className="text-[10px] uppercase tracking-[0.25em] text-gray-500">
+          <span className="text-[10px] uppercase tracking-[0.25em] text-gray-400">
             Front-End Developer
           </span>
         </a>

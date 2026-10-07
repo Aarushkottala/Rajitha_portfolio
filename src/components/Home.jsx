@@ -64,7 +64,7 @@ function Home() {
   return (
     <section
       id="Home"
-      className="relative min-h-screen overflow-hidden bg-blue-100 text-cyan-600 px-6 pt-32 flex items-center"
+      className="relative min-h-screen overflow-hidden bg-blue-100 text-green-400 px-6 pt-32 flex items-center"
     >
       {/* Background Glow 1 */}
       <div
@@ -86,10 +86,10 @@ function Home() {
         </p>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Rajita Kottala
+          Rajitha Kottala
         </h1>
 
-        <h2 className="text-2xl md:text-4xl font-semibold text-gray-500 mb-6">
+        <h2 className="text-2xl md:text-4xl font-semibold text-slate-600 mb-6">
           Front-End{" "}
           <span className="text-cyan-400">
             React Developer
