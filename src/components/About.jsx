@@ -295,7 +295,7 @@
 //////////////////////////////////
 
 
-
+import ProfileImage from "../assets/profile.jpeg"
 function About() {
  const resumeLink =
   "https://docs.google.com/document/d/1Jnc17HoWxA_KzyXJyUmEQWNRpYOm_gcdRqXWlaZvsw4/edit";
@@ -354,7 +354,7 @@ function About() {
                            shadow-xl"
               >
                 <img
-                  src="/src/assets/profile.jpeg"
+                  src={ProfileImage}
                   alt="Rajita Kottala"
                   className="w-72 h-72 md:w-96 md:h-96
                              object-cover

@@ -157,7 +157,7 @@ function Footer() {
 
             {/* Instagram */}
             <a
-              href="https://www.instagram.com/RajithaReddykottala/"
+              href="https://www.instagram.com/rajithareddykottala2020/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
